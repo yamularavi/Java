@@ -1,12 +1,10 @@
 package Strings;
 class A{
 	static {
-		System.out.println("static block");
-	}
+		System.out.println("static block");}
 	A()
 	{
-		System.out.println("default method");
-	}
+		System.out.println("default method");}
 	static void m2()
 	{
 		System.out.println("am a static method +x");
@@ -25,16 +23,13 @@ class A{
 	{
 		System.out.println("am ravi");
 	}
-	
 }
-
 public class methd {
-
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 A a=new A();
 A.m2();
-		//System.out.println("ravi");
+	System.out.println("ravi");
 	}
 
 }
